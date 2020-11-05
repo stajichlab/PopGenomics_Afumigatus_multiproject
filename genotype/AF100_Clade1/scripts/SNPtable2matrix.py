@@ -1,0 +1,1 @@
+../../scripts/SNPtable2matrix.py

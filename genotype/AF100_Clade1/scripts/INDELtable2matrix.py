@@ -1,0 +1,1 @@
+../../scripts/INDELtable2matrix.py
