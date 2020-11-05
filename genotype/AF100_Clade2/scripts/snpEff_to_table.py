@@ -1,0 +1,1 @@
+../../scripts/snpEff_to_table.py

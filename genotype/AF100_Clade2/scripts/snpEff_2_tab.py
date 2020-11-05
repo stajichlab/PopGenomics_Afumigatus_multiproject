@@ -1,0 +1,1 @@
+../../scripts/snpEff_2_tab.py

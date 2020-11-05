@@ -1,0 +1,1 @@
+../../scripts/map_snpEff2domains.py
