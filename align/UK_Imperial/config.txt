@@ -3,6 +3,7 @@ GENOMEFASTA=Af293.fasta
 REFGENOME=genome/FungiDB-39_AfumigatusAf293_Genome.fasta
 GENOMENAME=Af293
 SAMPLESINFO=samples.csv
+CENTER=Imperial
 FASTQFOLDER=input
 ASMEXT=fasta
 ALNFOLDER=aln
