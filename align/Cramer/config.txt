@@ -21,3 +21,6 @@ PREFIX=Cramer
 REFNAME=Af293-REF
 BQSRALN=bsqr
 SLICEVCF=vcf_slice
+FASTQEXT=fq
+UNMAPPED=unmapped
+UNMAPPEDASM=unmapped_asm

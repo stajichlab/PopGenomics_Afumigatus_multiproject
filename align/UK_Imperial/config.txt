@@ -21,3 +21,6 @@ FINALVCF=vcf
 REFNAME=Af293-REF
 BQSRALN=bsqr
 SLICEVCF=vcf_slice
+FASTQEXT=fastq
+UNMAPPED=unmapped
+UNMAPPEDASM=unmapped_asm

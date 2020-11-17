@@ -12,7 +12,7 @@ VARIANTFOLDER=gvcf
 HTCFORMAT=cram #default but may switch back to bam
 HTCFOLDER=cram # default
 HTCEXT=cram
-SAMPFILE=samples.csv
+SAMPINFO=samples.csv
 CENTER=UCR
 
 if [ -f config.txt ]; then
@@ -44,7 +44,7 @@ fi
 hostname
 date
 IFS=,
-tail -n +2 $SAMPFILE | cut -d, -f2 | sort | uniq | sed -n ${N}p | while read STRAIN
+tail -n +2 $SAMPINFO | cut -d, -f2 | sort | uniq | sed -n ${N}p | while read STRAIN
 do
   # BEGIN THIS PART IS PROJECT SPECIFIC LIKELY
   # END THIS PART IS PROJECT SPECIFIC LIKELY

@@ -17,7 +17,7 @@ HTCEXT=cram
 HTCFORMAT=cram
 GENOMESTRAIN=Af293
 CENTER=UCR
-SAMPFILE=samples.csv
+SAMPINFO=samples.csv
 
 mkdir -p $ALNFOLDER
 mkdir -p $TOPOUTDIR
@@ -49,14 +49,14 @@ if [ -z $N ]; then
 fi
 TEMP=/scratch
 
-MAX=$(wc -l $SAMPFILE | awk '{print $1}')
+MAX=$(wc -l $SAMPINFO | awk '{print $1}')
 if [ $N -gt $MAX ]; then
-  echo "$N is too big, only $MAX lines in $SAMPFILE"
+  echo "$N is too big, only $MAX lines in $SAMPINFO"
   exit
 fi
 
 IFS=,
-tail -n +2 $SAMPFILE | sed -n ${N}p | while read SRA STRAIN SAMPLE CTR EXPR PROJ
+tail -n +2 $SAMPINFO | sed -n ${N}p | while read SRA STRAIN SAMPLE CTR EXPR PROJ
 do
 
   # BEGIN THIS PART IS PROBABLY PROJECT SPECIFIC
