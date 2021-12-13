@@ -1,6 +1,6 @@
 # Aspergillus fumigatus MultiProject Population Genomics
 
-Generalized dataset collection and analysis for population genomics of A. fumigatus. 
+Generalized dataset collection and analysis for population genomics of _A. fumigatus_.
 
 This separates the alignment / read processing to generate g.vcf files as well as extract unmapped reads and assembly of these into one set of folders (*align* folder).
 
